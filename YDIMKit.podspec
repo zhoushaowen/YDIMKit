@@ -22,7 +22,6 @@ Pod::Spec.new do |s|
   
   s.requires_arc = true
 
-  s.dependency 'MBProgressHUD'
   s.dependency 'SWExpandResponse'
 
 
