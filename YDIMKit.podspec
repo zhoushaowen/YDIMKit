@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "YDIMKit"
 
-  s.version      = "0.0.2"
+  s.version      = "0.0.1"
 
   s.homepage      = 'https://github.com/zhoushaowen/YDIMKit'
 
@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency 'SWExpandResponse'
+  s.dependency 'SWExtension'
 
 
 end
