@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18927FE7368115C9FDBFF2C2 /* libPods-YDIMKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C02C21C413759E179F195D8 /* libPods-YDIMKit.a */; };
+		363139581E07CDAB00653FF9 /* YDIMTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 363139571E07CDAB00653FF9 /* YDIMTool.m */; };
+		364D91AB1DD5995C00825E32 /* YDBaseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D91AA1DD5995C00825E32 /* YDBaseMessage.m */; };
+		364D91F01DD5AA6A00825E32 /* YDImageMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 364D91EF1DD5AA6A00825E32 /* YDImageMessage.m */; };
+		36C808171DC87CA100D68BC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C808161DC87CA100D68BC3 /* main.m */; };
+		36C8081A1DC87CA100D68BC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C808191DC87CA100D68BC3 /* AppDelegate.m */; };
+		36C8081D1DC87CA100D68BC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C8081C1DC87CA100D68BC3 /* ViewController.m */; };
+		36C808201DC87CA100D68BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C8081E1DC87CA100D68BC3 /* Main.storyboard */; };
+		36C808221DC87CA100D68BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C808211DC87CA100D68BC3 /* Assets.xcassets */; };
+		36C808251DC87CA100D68BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C808231DC87CA100D68BC3 /* LaunchScreen.storyboard */; };
+		36C808301DC87CA100D68BC3 /* YDIMKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C8082F1DC87CA100D68BC3 /* YDIMKitTests.m */; };
+		36C8083B1DC87CA100D68BC3 /* YDIMKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C8083A1DC87CA100D68BC3 /* YDIMKitUITests.m */; };
+		36C8087E1DC87DF500D68BC3 /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C808551DC87DF500D68BC3 /* UIImage+Bundle.m */; };
+		36C808821DC87DF500D68BC3 /* UIViewController+Authorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C8085D1DC87DF500D68BC3 /* UIViewController+Authorization.m */; };
+		36C808831DC87DF500D68BC3 /* YDAudioPressShortView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C808601DC87DF500D68BC3 /* YDAudioPressShortView.m */; };
+		36C808851DC87DF500D68BC3 /* YDCancelSendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C808641DC87DF500D68BC3 /* YDCancelSendView.m */; };
+		36C808861DC87DF500D68BC3 /* YDChatBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C808661DC87DF500D68BC3 /* YDChatBaseViewController.m */; };
+		36C808871DC87DF500D68BC3 /* YDChatBottomToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C808681DC87DF500D68BC3 /* YDChatBottomToolView.m */; };
+		36C808881DC87DF500D68BC3 /* YDChatPlusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C8086A1DC87DF500D68BC3 /* YDChatPlusView.m */; };
+		36C8088A1DC87DF500D68BC3 /* YDEmojiKeyboardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C8086E1DC87DF500D68BC3 /* YDEmojiKeyboardCell.m */; };
+		36C8088B1DC87DF500D68BC3 /* YDEmojiKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C808701DC87DF500D68BC3 /* YDEmojiKeyboardView.m */; };
+		36C8088D1DC87DF500D68BC3 /* YDPlusViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C808741DC87DF500D68BC3 /* YDPlusViewModel.m */; };
+		36C8088E1DC87DF500D68BC3 /* YDRecordingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C808761DC87DF500D68BC3 /* YDRecordingView.m */; };
+		36C808981DC87E0600D68BC3 /* YDMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C808931DC87E0600D68BC3 /* YDMessageCell.m */; };
+		36C808991DC87E0600D68BC3 /* YDTextMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C808951DC87E0600D68BC3 /* YDTextMessageCell.m */; };
+		36C808E41DC9856000D68BC3 /* YDChatRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C808E31DC9856000D68BC3 /* YDChatRefreshControl.m */; };
+		36F41F901DD98DC300C328AC /* chat.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36F41F8F1DD98DC300C328AC /* chat.bundle */; };
+		36FE63E91E5FD07300F0A700 /* YDSpeechRecognizeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FE63E81E5FD07300F0A700 /* YDSpeechRecognizeManager.m */; };
+		36FE63EC1E5FD3CA00F0A700 /* YDSpeechSynthesisManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FE63EB1E5FD3CA00F0A700 /* YDSpeechSynthesisManager.m */; };
+		DD2DA9281DC8836300B41ACF /* YDJoyImageMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2DA9271DC8836300B41ACF /* YDJoyImageMessageCell.m */; };
+		DD2DA92D1DC8842300B41ACF /* ORColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2DA92C1DC8842300B41ACF /* ORColorUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36C8082C1DC87CA100D68BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36C8080A1DC87CA100D68BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C808111DC87CA100D68BC3;
+			remoteInfo = YDIMKit;
+		};
+		36C808371DC87CA100D68BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36C8080A1DC87CA100D68BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C808111DC87CA100D68BC3;
+			remoteInfo = YDIMKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		363139561E07CDAB00653FF9 /* YDIMTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDIMTool.h; sourceTree = "<group>"; };
+		363139571E07CDAB00653FF9 /* YDIMTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDIMTool.m; sourceTree = "<group>"; };
+		364D91A91DD5995C00825E32 /* YDBaseMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDBaseMessage.h; sourceTree = "<group>"; };
+		364D91AA1DD5995C00825E32 /* YDBaseMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDBaseMessage.m; sourceTree = "<group>"; };
+		364D91B01DD59AD800825E32 /* YDMessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMessageProtocol.h; sourceTree = "<group>"; };
+		364D91EE1DD5AA6A00825E32 /* YDImageMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDImageMessage.h; sourceTree = "<group>"; };
+		364D91EF1DD5AA6A00825E32 /* YDImageMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDImageMessage.m; sourceTree = "<group>"; };
+		36C808121DC87CA100D68BC3 /* YDIMKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDIMKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C808161DC87CA100D68BC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36C808181DC87CA100D68BC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36C808191DC87CA100D68BC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36C8081B1DC87CA100D68BC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36C8081C1DC87CA100D68BC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36C8081F1DC87CA100D68BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36C808211DC87CA100D68BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36C808241DC87CA100D68BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36C808261DC87CA100D68BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36C8082B1DC87CA100D68BC3 /* YDIMKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDIMKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C8082F1DC87CA100D68BC3 /* YDIMKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDIMKitTests.m; sourceTree = "<group>"; };
+		36C808311DC87CA100D68BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36C808361DC87CA100D68BC3 /* YDIMKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDIMKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C8083A1DC87CA100D68BC3 /* YDIMKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDIMKitUITests.m; sourceTree = "<group>"; };
+		36C8083C1DC87CA100D68BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36C808541DC87DF500D68BC3 /* UIImage+Bundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bundle.h"; sourceTree = "<group>"; };
+		36C808551DC87DF500D68BC3 /* UIImage+Bundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bundle.m"; sourceTree = "<group>"; };
+		36C8085C1DC87DF500D68BC3 /* UIViewController+Authorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Authorization.h"; sourceTree = "<group>"; };
+		36C8085D1DC87DF500D68BC3 /* UIViewController+Authorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Authorization.m"; sourceTree = "<group>"; };
+		36C8085E1DC87DF500D68BC3 /* YDActionItemProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDActionItemProtocol.h; sourceTree = "<group>"; };
+		36C8085F1DC87DF500D68BC3 /* YDAudioPressShortView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDAudioPressShortView.h; sourceTree = "<group>"; };
+		36C808601DC87DF500D68BC3 /* YDAudioPressShortView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAudioPressShortView.m; sourceTree = "<group>"; };
+		36C808631DC87DF500D68BC3 /* YDCancelSendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCancelSendView.h; sourceTree = "<group>"; };
+		36C808641DC87DF500D68BC3 /* YDCancelSendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCancelSendView.m; sourceTree = "<group>"; };
+		36C808651DC87DF500D68BC3 /* YDChatBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatBaseViewController.h; sourceTree = "<group>"; };
+		36C808661DC87DF500D68BC3 /* YDChatBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatBaseViewController.m; sourceTree = "<group>"; };
+		36C808671DC87DF500D68BC3 /* YDChatBottomToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatBottomToolView.h; sourceTree = "<group>"; };
+		36C808681DC87DF500D68BC3 /* YDChatBottomToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatBottomToolView.m; sourceTree = "<group>"; };
+		36C808691DC87DF500D68BC3 /* YDChatPlusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatPlusView.h; sourceTree = "<group>"; };
+		36C8086A1DC87DF500D68BC3 /* YDChatPlusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatPlusView.m; sourceTree = "<group>"; };
+		36C8086D1DC87DF500D68BC3 /* YDEmojiKeyboardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDEmojiKeyboardCell.h; sourceTree = "<group>"; };
+		36C8086E1DC87DF500D68BC3 /* YDEmojiKeyboardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDEmojiKeyboardCell.m; sourceTree = "<group>"; };
+		36C8086F1DC87DF500D68BC3 /* YDEmojiKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDEmojiKeyboardView.h; sourceTree = "<group>"; };
+		36C808701DC87DF500D68BC3 /* YDEmojiKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDEmojiKeyboardView.m; sourceTree = "<group>"; };
+		36C808731DC87DF500D68BC3 /* YDPlusViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDPlusViewModel.h; sourceTree = "<group>"; };
+		36C808741DC87DF500D68BC3 /* YDPlusViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDPlusViewModel.m; sourceTree = "<group>"; };
+		36C808751DC87DF500D68BC3 /* YDRecordingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDRecordingView.h; sourceTree = "<group>"; };
+		36C808761DC87DF500D68BC3 /* YDRecordingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDRecordingView.m; sourceTree = "<group>"; };
+		36C808921DC87E0600D68BC3 /* YDMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDMessageCell.h; sourceTree = "<group>"; };
+		36C808931DC87E0600D68BC3 /* YDMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDMessageCell.m; sourceTree = "<group>"; };
+		36C808941DC87E0600D68BC3 /* YDTextMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDTextMessageCell.h; sourceTree = "<group>"; };
+		36C808951DC87E0600D68BC3 /* YDTextMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDTextMessageCell.m; sourceTree = "<group>"; };
+		36C808E21DC9856000D68BC3 /* YDChatRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDChatRefreshControl.h; sourceTree = "<group>"; };
+		36C808E31DC9856000D68BC3 /* YDChatRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDChatRefreshControl.m; sourceTree = "<group>"; };
+		36F41F8F1DD98DC300C328AC /* chat.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = chat.bundle; sourceTree = "<group>"; };
+		36FE63E71E5FD07300F0A700 /* YDSpeechRecognizeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSpeechRecognizeManager.h; sourceTree = "<group>"; };
+		36FE63E81E5FD07300F0A700 /* YDSpeechRecognizeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSpeechRecognizeManager.m; sourceTree = "<group>"; };
+		36FE63EA1E5FD3CA00F0A700 /* YDSpeechSynthesisManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSpeechSynthesisManager.h; sourceTree = "<group>"; };
+		36FE63EB1E5FD3CA00F0A700 /* YDSpeechSynthesisManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSpeechSynthesisManager.m; sourceTree = "<group>"; };
+		7D4077C5901A7D25FBDBFE53 /* Pods-YDIMKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDIMKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YDIMKit/Pods-YDIMKit.debug.xcconfig"; sourceTree = "<group>"; };
+		9C02C21C413759E179F195D8 /* libPods-YDIMKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YDIMKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB717F333F44FE7EC793716A /* Pods-YDIMKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDIMKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-YDIMKit/Pods-YDIMKit.release.xcconfig"; sourceTree = "<group>"; };
+		DD2DA9261DC8836300B41ACF /* YDJoyImageMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDJoyImageMessageCell.h; sourceTree = "<group>"; };
+		DD2DA9271DC8836300B41ACF /* YDJoyImageMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDJoyImageMessageCell.m; sourceTree = "<group>"; };
+		DD2DA92B1DC8842300B41ACF /* ORColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORColorUtil.h; sourceTree = "<group>"; };
+		DD2DA92C1DC8842300B41ACF /* ORColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORColorUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36C8080F1DC87CA100D68BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18927FE7368115C9FDBFF2C2 /* libPods-YDIMKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C808281DC87CA100D68BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C808331DC87CA100D68BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		363139551E07CD2800653FF9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				363139561E07CDAB00653FF9 /* YDIMTool.h */,
+				363139571E07CDAB00653FF9 /* YDIMTool.m */,
+				36FE63E71E5FD07300F0A700 /* YDSpeechRecognizeManager.h */,
+				36FE63E81E5FD07300F0A700 /* YDSpeechRecognizeManager.m */,
+				36FE63EA1E5FD3CA00F0A700 /* YDSpeechSynthesisManager.h */,
+				36FE63EB1E5FD3CA00F0A700 /* YDSpeechSynthesisManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		36C808091DC87CA100D68BC3 = {
+			isa = PBXGroup;
+			children = (
+				36C808141DC87CA100D68BC3 /* YDIMKit */,
+				36C8082E1DC87CA100D68BC3 /* YDIMKitTests */,
+				36C808391DC87CA100D68BC3 /* YDIMKitUITests */,
+				36C808131DC87CA100D68BC3 /* Products */,
+				5021D2E6C26D1B3E3050BDD1 /* Pods */,
+				CEF20BBB7DDADCC4730E935A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36C808131DC87CA100D68BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36C808121DC87CA100D68BC3 /* YDIMKit.app */,
+				36C8082B1DC87CA100D68BC3 /* YDIMKitTests.xctest */,
+				36C808361DC87CA100D68BC3 /* YDIMKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36C808141DC87CA100D68BC3 /* YDIMKit */ = {
+			isa = PBXGroup;
+			children = (
+				36C808481DC87D0100D68BC3 /* YDIMKit */,
+				36C808491DC87D1600D68BC3 /* YDIMKitDemo */,
+			);
+			path = YDIMKit;
+			sourceTree = "<group>";
+		};
+		36C808151DC87CA100D68BC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36C808161DC87CA100D68BC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36C8082E1DC87CA100D68BC3 /* YDIMKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				36C8082F1DC87CA100D68BC3 /* YDIMKitTests.m */,
+				36C808311DC87CA100D68BC3 /* Info.plist */,
+			);
+			path = YDIMKitTests;
+			sourceTree = "<group>";
+		};
+		36C808391DC87CA100D68BC3 /* YDIMKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36C8083A1DC87CA100D68BC3 /* YDIMKitUITests.m */,
+				36C8083C1DC87CA100D68BC3 /* Info.plist */,
+			);
+			path = YDIMKitUITests;
+			sourceTree = "<group>";
+		};
+		36C808481DC87D0100D68BC3 /* YDIMKit */ = {
+			isa = PBXGroup;
+			children = (
+				363139551E07CD2800653FF9 /* Tool */,
+				36C8089D1DC8807F00D68BC3 /* Controller */,
+				36C8089E1DC880A000D68BC3 /* Source */,
+				36C8089A1DC87FF500D68BC3 /* Extension */,
+				36C8089F1DC89EF100D68BC3 /* Protocol */,
+				36C8089B1DC8801200D68BC3 /* View */,
+				36C8089C1DC8807800D68BC3 /* Model */,
+			);
+			path = YDIMKit;
+			sourceTree = "<group>";
+		};
+		36C808491DC87D1600D68BC3 /* YDIMKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				36C8088F1DC87E0600D68BC3 /* messageCells */,
+				DD2DA9291DC883A300B41ACF /* Vendor */,
+				36C808181DC87CA100D68BC3 /* AppDelegate.h */,
+				36C808191DC87CA100D68BC3 /* AppDelegate.m */,
+				364D91A91DD5995C00825E32 /* YDBaseMessage.h */,
+				364D91AA1DD5995C00825E32 /* YDBaseMessage.m */,
+				364D91EE1DD5AA6A00825E32 /* YDImageMessage.h */,
+				364D91EF1DD5AA6A00825E32 /* YDImageMessage.m */,
+				36C8081B1DC87CA100D68BC3 /* ViewController.h */,
+				36C8081C1DC87CA100D68BC3 /* ViewController.m */,
+				36C8081E1DC87CA100D68BC3 /* Main.storyboard */,
+				36C808211DC87CA100D68BC3 /* Assets.xcassets */,
+				36C808231DC87CA100D68BC3 /* LaunchScreen.storyboard */,
+				36C808261DC87CA100D68BC3 /* Info.plist */,
+				36C808151DC87CA100D68BC3 /* Supporting Files */,
+			);
+			name = YDIMKitDemo;
+			sourceTree = "<group>";
+		};
+		36C8088F1DC87E0600D68BC3 /* messageCells */ = {
+			isa = PBXGroup;
+			children = (
+				36C808921DC87E0600D68BC3 /* YDMessageCell.h */,
+				36C808931DC87E0600D68BC3 /* YDMessageCell.m */,
+				36C808941DC87E0600D68BC3 /* YDTextMessageCell.h */,
+				36C808951DC87E0600D68BC3 /* YDTextMessageCell.m */,
+				DD2DA9261DC8836300B41ACF /* YDJoyImageMessageCell.h */,
+				DD2DA9271DC8836300B41ACF /* YDJoyImageMessageCell.m */,
+			);
+			path = messageCells;
+			sourceTree = "<group>";
+		};
+		36C8089A1DC87FF500D68BC3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				36C8085C1DC87DF500D68BC3 /* UIViewController+Authorization.h */,
+				36C8085D1DC87DF500D68BC3 /* UIViewController+Authorization.m */,
+				36C808541DC87DF500D68BC3 /* UIImage+Bundle.h */,
+				36C808551DC87DF500D68BC3 /* UIImage+Bundle.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		36C8089B1DC8801200D68BC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36C808E21DC9856000D68BC3 /* YDChatRefreshControl.h */,
+				36C808E31DC9856000D68BC3 /* YDChatRefreshControl.m */,
+				36C808751DC87DF500D68BC3 /* YDRecordingView.h */,
+				36C808761DC87DF500D68BC3 /* YDRecordingView.m */,
+				36C8086D1DC87DF500D68BC3 /* YDEmojiKeyboardCell.h */,
+				36C8086E1DC87DF500D68BC3 /* YDEmojiKeyboardCell.m */,
+				36C8086F1DC87DF500D68BC3 /* YDEmojiKeyboardView.h */,
+				36C808701DC87DF500D68BC3 /* YDEmojiKeyboardView.m */,
+				36C8085F1DC87DF500D68BC3 /* YDAudioPressShortView.h */,
+				36C808601DC87DF500D68BC3 /* YDAudioPressShortView.m */,
+				36C808631DC87DF500D68BC3 /* YDCancelSendView.h */,
+				36C808641DC87DF500D68BC3 /* YDCancelSendView.m */,
+				36C808671DC87DF500D68BC3 /* YDChatBottomToolView.h */,
+				36C808681DC87DF500D68BC3 /* YDChatBottomToolView.m */,
+				36C808691DC87DF500D68BC3 /* YDChatPlusView.h */,
+				36C8086A1DC87DF500D68BC3 /* YDChatPlusView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		36C8089C1DC8807800D68BC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36C808731DC87DF500D68BC3 /* YDPlusViewModel.h */,
+				36C808741DC87DF500D68BC3 /* YDPlusViewModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		36C8089D1DC8807F00D68BC3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				36C808651DC87DF500D68BC3 /* YDChatBaseViewController.h */,
+				36C808661DC87DF500D68BC3 /* YDChatBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		36C8089E1DC880A000D68BC3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				36F41F8F1DD98DC300C328AC /* chat.bundle */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		36C8089F1DC89EF100D68BC3 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				36C8085E1DC87DF500D68BC3 /* YDActionItemProtocol.h */,
+				364D91B01DD59AD800825E32 /* YDMessageProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		5021D2E6C26D1B3E3050BDD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D4077C5901A7D25FBDBFE53 /* Pods-YDIMKit.debug.xcconfig */,
+				BB717F333F44FE7EC793716A /* Pods-YDIMKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEF20BBB7DDADCC4730E935A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C02C21C413759E179F195D8 /* libPods-YDIMKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD2DA9291DC883A300B41ACF /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				DD2DA92A1DC883CC00B41ACF /* ColorUtil */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		DD2DA92A1DC883CC00B41ACF /* ColorUtil */ = {
+			isa = PBXGroup;
+			children = (
+				DD2DA92B1DC8842300B41ACF /* ORColorUtil.h */,
+				DD2DA92C1DC8842300B41ACF /* ORColorUtil.m */,
+			);
+			name = ColorUtil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36C808111DC87CA100D68BC3 /* YDIMKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C8083F1DC87CA100D68BC3 /* Build configuration list for PBXNativeTarget "YDIMKit" */;
+			buildPhases = (
+				F4AAA2C6BDBD27D7A0A5DF89 /* [CP] Check Pods Manifest.lock */,
+				36C8080E1DC87CA100D68BC3 /* Sources */,
+				36C8080F1DC87CA100D68BC3 /* Frameworks */,
+				36C808101DC87CA100D68BC3 /* Resources */,
+				BC7F7339D07582EEC849BB75 /* [CP] Embed Pods Frameworks */,
+				7E3B291A3055DB01A5BDF38A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YDIMKit;
+			productName = YDIMKit;
+			productReference = 36C808121DC87CA100D68BC3 /* YDIMKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36C8082A1DC87CA100D68BC3 /* YDIMKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C808421DC87CA100D68BC3 /* Build configuration list for PBXNativeTarget "YDIMKitTests" */;
+			buildPhases = (
+				36C808271DC87CA100D68BC3 /* Sources */,
+				36C808281DC87CA100D68BC3 /* Frameworks */,
+				36C808291DC87CA100D68BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36C8082D1DC87CA100D68BC3 /* PBXTargetDependency */,
+			);
+			name = YDIMKitTests;
+			productName = YDIMKitTests;
+			productReference = 36C8082B1DC87CA100D68BC3 /* YDIMKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36C808351DC87CA100D68BC3 /* YDIMKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C808451DC87CA100D68BC3 /* Build configuration list for PBXNativeTarget "YDIMKitUITests" */;
+			buildPhases = (
+				36C808321DC87CA100D68BC3 /* Sources */,
+				36C808331DC87CA100D68BC3 /* Frameworks */,
+				36C808341DC87CA100D68BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36C808381DC87CA100D68BC3 /* PBXTargetDependency */,
+			);
+			name = YDIMKitUITests;
+			productName = YDIMKitUITests;
+			productReference = 36C808361DC87CA100D68BC3 /* YDIMKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36C8080A1DC87CA100D68BC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Yidu;
+				TargetAttributes = {
+					36C808111DC87CA100D68BC3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2YW229246G;
+						ProvisioningStyle = Automatic;
+					};
+					36C8082A1DC87CA100D68BC3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2YW229246G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36C808111DC87CA100D68BC3;
+					};
+					36C808351DC87CA100D68BC3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2YW229246G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 36C808111DC87CA100D68BC3;
+					};
+				};
+			};
+			buildConfigurationList = 36C8080D1DC87CA100D68BC3 /* Build configuration list for PBXProject "YDIMKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36C808091DC87CA100D68BC3;
+			productRefGroup = 36C808131DC87CA100D68BC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36C808111DC87CA100D68BC3 /* YDIMKit */,
+				36C8082A1DC87CA100D68BC3 /* YDIMKitTests */,
+				36C808351DC87CA100D68BC3 /* YDIMKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36C808101DC87CA100D68BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C808251DC87CA100D68BC3 /* LaunchScreen.storyboard in Resources */,
+				36C808221DC87CA100D68BC3 /* Assets.xcassets in Resources */,
+				36C808201DC87CA100D68BC3 /* Main.storyboard in Resources */,
+				36F41F901DD98DC300C328AC /* chat.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C808291DC87CA100D68BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C808341DC87CA100D68BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E3B291A3055DB01A5BDF38A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YDIMKit/Pods-YDIMKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC7F7339D07582EEC849BB75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YDIMKit/Pods-YDIMKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4AAA2C6BDBD27D7A0A5DF89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36C8080E1DC87CA100D68BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C8088D1DC87DF500D68BC3 /* YDPlusViewModel.m in Sources */,
+				36C8088B1DC87DF500D68BC3 /* YDEmojiKeyboardView.m in Sources */,
+				36C808861DC87DF500D68BC3 /* YDChatBaseViewController.m in Sources */,
+				36C808831DC87DF500D68BC3 /* YDAudioPressShortView.m in Sources */,
+				36C808881DC87DF500D68BC3 /* YDChatPlusView.m in Sources */,
+				36FE63EC1E5FD3CA00F0A700 /* YDSpeechSynthesisManager.m in Sources */,
+				36C8081D1DC87CA100D68BC3 /* ViewController.m in Sources */,
+				36C8081A1DC87CA100D68BC3 /* AppDelegate.m in Sources */,
+				364D91AB1DD5995C00825E32 /* YDBaseMessage.m in Sources */,
+				36FE63E91E5FD07300F0A700 /* YDSpeechRecognizeManager.m in Sources */,
+				363139581E07CDAB00653FF9 /* YDIMTool.m in Sources */,
+				36C808981DC87E0600D68BC3 /* YDMessageCell.m in Sources */,
+				36C8087E1DC87DF500D68BC3 /* UIImage+Bundle.m in Sources */,
+				DD2DA9281DC8836300B41ACF /* YDJoyImageMessageCell.m in Sources */,
+				36C808851DC87DF500D68BC3 /* YDCancelSendView.m in Sources */,
+				364D91F01DD5AA6A00825E32 /* YDImageMessage.m in Sources */,
+				36C808E41DC9856000D68BC3 /* YDChatRefreshControl.m in Sources */,
+				36C808171DC87CA100D68BC3 /* main.m in Sources */,
+				36C8088E1DC87DF500D68BC3 /* YDRecordingView.m in Sources */,
+				36C8088A1DC87DF500D68BC3 /* YDEmojiKeyboardCell.m in Sources */,
+				36C808821DC87DF500D68BC3 /* UIViewController+Authorization.m in Sources */,
+				36C808871DC87DF500D68BC3 /* YDChatBottomToolView.m in Sources */,
+				DD2DA92D1DC8842300B41ACF /* ORColorUtil.m in Sources */,
+				36C808991DC87E0600D68BC3 /* YDTextMessageCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C808271DC87CA100D68BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C808301DC87CA100D68BC3 /* YDIMKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C808321DC87CA100D68BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C8083B1DC87CA100D68BC3 /* YDIMKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36C8082D1DC87CA100D68BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36C808111DC87CA100D68BC3 /* YDIMKit */;
+			targetProxy = 36C8082C1DC87CA100D68BC3 /* PBXContainerItemProxy */;
+		};
+		36C808381DC87CA100D68BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36C808111DC87CA100D68BC3 /* YDIMKit */;
+			targetProxy = 36C808371DC87CA100D68BC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36C8081E1DC87CA100D68BC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36C8081F1DC87CA100D68BC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36C808231DC87CA100D68BC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36C808241DC87CA100D68BC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36C8083D1DC87CA100D68BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36C8083E1DC87CA100D68BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36C808401DC87CA100D68BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D4077C5901A7D25FBDBFE53 /* Pods-YDIMKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2YW229246G;
+				INFOPLIST_FILE = YDIMKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidu.YDIMKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36C808411DC87CA100D68BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB717F333F44FE7EC793716A /* Pods-YDIMKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2YW229246G;
+				INFOPLIST_FILE = YDIMKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidu.YDIMKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36C808431DC87CA100D68BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2YW229246G;
+				INFOPLIST_FILE = YDIMKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidu.YDIMKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YDIMKit.app/YDIMKit";
+			};
+			name = Debug;
+		};
+		36C808441DC87CA100D68BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2YW229246G;
+				INFOPLIST_FILE = YDIMKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidu.YDIMKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YDIMKit.app/YDIMKit";
+			};
+			name = Release;
+		};
+		36C808461DC87CA100D68BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2YW229246G;
+				INFOPLIST_FILE = YDIMKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidu.YDIMKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YDIMKit;
+			};
+			name = Debug;
+		};
+		36C808471DC87CA100D68BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2YW229246G;
+				INFOPLIST_FILE = YDIMKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidu.YDIMKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YDIMKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36C8080D1DC87CA100D68BC3 /* Build configuration list for PBXProject "YDIMKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C8083D1DC87CA100D68BC3 /* Debug */,
+				36C8083E1DC87CA100D68BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C8083F1DC87CA100D68BC3 /* Build configuration list for PBXNativeTarget "YDIMKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C808401DC87CA100D68BC3 /* Debug */,
+				36C808411DC87CA100D68BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C808421DC87CA100D68BC3 /* Build configuration list for PBXNativeTarget "YDIMKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C808431DC87CA100D68BC3 /* Debug */,
+				36C808441DC87CA100D68BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C808451DC87CA100D68BC3 /* Build configuration list for PBXNativeTarget "YDIMKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C808461DC87CA100D68BC3 /* Debug */,
+				36C808471DC87CA100D68BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36C8080A1DC87CA100D68BC3 /* Project object */;
+}

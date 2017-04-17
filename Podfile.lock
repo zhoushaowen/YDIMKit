@@ -1,0 +1,22 @@
+PODS:
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - SWExpandResponse (0.0.2)
+  - SWExtension (0.0.9):
+    - MBProgressHUD
+
+DEPENDENCIES:
+  - Masonry
+  - MBProgressHUD
+  - SWExpandResponse
+  - SWExtension
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SWExpandResponse: be00945f6b61dcce9bb3f95e1906e11cf79c58c9
+  SWExtension: 38ef29550c79794fea81b86ada5a637c6fff43a6
+
+PODFILE CHECKSUM: 5201820f15c2905af4b0a1efa86d0f7b46015dc2
+
+COCOAPODS: 1.2.1
