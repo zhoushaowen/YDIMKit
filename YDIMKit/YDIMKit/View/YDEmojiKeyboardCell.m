@@ -7,7 +7,7 @@
 //
 
 #import "YDEmojiKeyboardCell.h"
-#import "UIColor+Hex.h"
+#import <SWExtension/UIColor+Hex.h>
 
 @implementation YDEmojiKeyboardCell
 

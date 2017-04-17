@@ -7,7 +7,7 @@
 //
 
 #import "YDChatRefreshControl.h"
-#import "UIView+SWAutoLayout.h"
+#import <SWExtension/UIView+SWAutoLayout.h>
 
 @implementation YDChatRefreshView
 

@@ -8,9 +8,9 @@
 
 #import "YDCancelSendView.h"
 #import "UIImage+Bundle.h"
-#import "UIView+SWAutoLayout.h"
-#import "UIColor+Hex.h"
-#import "UIView+HUD.h"
+#import <SWExtension/UIView+SWAutoLayout.h>
+#import <SWExtension/UIColor+Hex.h>
+#import <SWExtension/UIView+HUD.h>
 
 @implementation YDCancelSendView
 

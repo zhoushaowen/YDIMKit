@@ -7,10 +7,8 @@
 //
 
 #import "YDRecordingView.h"
-#import "UIView+SWAutoLayout.h"
 #import "UIImage+Bundle.h"
-#import "UIView+HUD.h"
-#import "UIColor+Hex.h"
+#import <SWExtension.h>
 
 @interface YDRecordingView ()
 

@@ -7,7 +7,7 @@
 //
 
 #import "YDChatBaseViewController.h"
-#import "UIView+SWAutoLayout.h"
+#import <SWExtension/UIView+SWAutoLayout.h>
 #import "UIViewController+Authorization.h"
 #import <AVFoundation/AVFoundation.h>
 #import <objc/runtime.h>

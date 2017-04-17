@@ -13,7 +13,7 @@
 #import "YDCancelSendView.h"
 #import "YDAudioPressShortView.h"
 #import "YDChatBaseViewController.h"
-#import "UIView+HUD.h"
+#import <SWExtension/UIView+HUD.h>
 
 @class YDChatBottomToolView;
 

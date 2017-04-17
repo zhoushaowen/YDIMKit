@@ -7,10 +7,9 @@
 //
 
 #import "YDChatPlusView.h"
-#import "UIView+SWAutoLayout.h"
 #import "YDPlusViewModel.h"
-#import "UIColor+Hex.h"
 #import "UIImage+Bundle.h"
+#import <SWExtension.h>
 
 //static CGFloat const itemWidth = 50;
 //static CGFloat const itemHeight = 50;

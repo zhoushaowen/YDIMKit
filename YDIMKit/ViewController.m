@@ -12,9 +12,8 @@
 #import "YDJoyImageMessageCell.h"
 #import "YDImageMessage.h"
 #import "ORColorUtil.h"
-#import <SWExtension/UIImage+SWExtension.h>
 #import "YDIMTool.h"
-#import "UIView+HUD.h"
+#import <SWExtension.h>
 #import "YDChatBottomToolView.h"
 
 

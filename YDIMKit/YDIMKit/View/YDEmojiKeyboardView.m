@@ -8,11 +8,8 @@
 
 #import "YDEmojiKeyboardView.h"
 #import "YDEmojiKeyboardCell.h"
-#import "UIColor+Hex.h"
-#import "UIView+SWAutoLayout.h"
-#import "NSString+Emoji.h"
+#import <SWExtension.h>
 #import "UIImage+Bundle.h"
-#import <SWExtension/UIImage+SWExtension.h>
 
 const CGFloat YDEmojiKeyboardHeight = 220;
 

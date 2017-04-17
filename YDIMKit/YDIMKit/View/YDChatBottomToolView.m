@@ -7,11 +7,8 @@
 //
 
 #import "YDChatBottomToolView.h"
-
 #import "UIImage+Bundle.h"
-#import "UIColor+Hex.h"
-#import <SWExtension/UIImage+SWExtension.h>
-#import "UIView+SWAutoLayout.h"
+#import <SWExtension.h>
 #import <SWExpandResponse/UIView+ExpandResponse.h>
 
 @interface YDChatPlusViewButton : UIButton
